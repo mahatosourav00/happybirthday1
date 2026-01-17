@@ -133,8 +133,8 @@ $('document').ready(function(){
 		loopFour();
 		loopFive();
 		loopSix();
-		loopSeven();
-		loopEight();
+		// loopSeven();
+		// loopEight();
 		// loopNine();
 		
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
@@ -170,12 +170,12 @@ $('document').ready(function(){
 		// $('#b7').attr('id','b77')
 		// $('#b8').attr('id','b88')
 		// $('#b9').attr('id','b99')
-		$('#b11').animate({top:240, left: vw-250},500);
-		$('#b22').animate({top:240, left: vw-200},500);
-		$('#b33').animate({top:240, left: vw-150},500);
-		$('#b44').animate({top:240, left: vw-100},500);
-		$('#b55').animate({top:240, left: vw-50},500);
-		$('#b66').animate({top:240, left: vw+0},500);
+		$('#b11').animate({top:240, left: vw-150},500);
+		$('#b22').animate({top:240, left: vw-100},500);
+		$('#b33').animate({top:240, left: vw-50},500);
+		$('#b44').animate({top:240, left: vw-0},500);
+		$('#b55').animate({top:240, left: vw+50},500);
+		$('#b66').animate({top:240, left: vw+100},500);
 		// $('#b77').animate({top:240, left: vw+50},500);
 		// $('#b88').animate({top:240, left: vw+100},500);
 		// $('#b99').animate({top:240, left: vw+150},500);
